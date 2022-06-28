@@ -1,21 +1,20 @@
 # djangoWeb 
-
-장고 기반 crud 게시판 구현
+kakaocloudschool
+장고 crud 게시판 구현
 ### 기능
-* Post crud
-* User crud
-* Reply 
+* Post Create Read Update Delete
+* User Create Read        Delete
+* Reply Create Read Update Delete 
 * post_like
-* social login by kakao
-* email authentication
+* social login
+* email sending
 * image upload
 
 ### 사용기술
 
 * Allauth 기반 소셜 로그인 1 kakao 2 naver
-* 배포 : AWS EC2 - 윈도우서버
-* DB : AWS s3
-
+* 데이터베이스: AWS RDS
+* 배포 : AWS EC2 - 윈도우서버 & apache
 ### 설치 환경
 * python 3.10
 * pip install django
