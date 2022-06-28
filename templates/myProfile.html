@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block contents %}
+
+<body>
+<section class="text-center">
+<span style="line-height:500%"><br></span>
+
+
+id: {{ request.user }} <br>
+email: {{ request.user.email }}
+
+<form method="post">
+    {% csrf_token %}
+    <a href="/user/delete">회원삭제</a>
+</form>
+</section>
+<span style="line-height:500%"><br></span>
+</body>
+</html>
+{% endblock %}

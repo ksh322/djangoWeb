@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if request.user.is_authenticated %}
+    {{ request.user}} <br/>
+{% endif %}
+
+{% for reply in replys %}
+    {{ reply.id }}
+    <a href = "read/{{ reply.id }}"> {{ reply.title}}</a>
+    {{ reply.writer }} </br>
+    {{ reply.contents }}
+{% endfor %}
+</body>
+</html>
