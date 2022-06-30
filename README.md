@@ -1,6 +1,8 @@
 # djangoWeb 
 kakaocloudschool
 장고 crud 게시판 구현
+###동작 화면
+
 ### 기능
 * Post Create Read Update Delete
 * User Create Read        Delete
