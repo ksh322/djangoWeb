@@ -4,10 +4,17 @@ kakaocloudschool
 
 ![image](https://user-images.githubusercontent.com/44285158/176856643-35739868-4342-4428-9e8d-690fe3459e7b.png)
 
+
 ### 기능
+
 * Post Create Read Update Delete
+* 회원가입
 * User Create Read        Delete
+![image](https://user-images.githubusercontent.com/44285158/176856890-2664ce45-fde2-4d3e-854e-a8fe4544f9aa.png)
+
 * Reply Create Read Update Delete 
+* 댓글
+
 * post_like
 * social login
 * email sending
