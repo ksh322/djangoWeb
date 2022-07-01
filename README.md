@@ -34,3 +34,4 @@ kakaocloudschool
 - pip install django-storages
 - pip freeze > requirements.txt
 - pip install -r requirements.txt
+- 부트스트랩 https://startbootstrap.com/theme/grayscale
