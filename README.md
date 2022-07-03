@@ -7,33 +7,46 @@ kakaocloudschool
 
 ### 기능
 
-* Post Create Read Update Delete
-* post_like
+
+* User Create Read Delete
+
 
 * 회원가입
-* User Create Read        Delete
+
 ![image](https://user-images.githubusercontent.com/44285158/176856890-2664ce45-fde2-4d3e-854e-a8fe4544f9aa.png)
 
-* Reply Create Read Update Delete 
+* Post Create Read Update Delete
+
+* 게시판
+* post_like
+
 * 댓글
+* Reply Create Read Update Delete
+
 
 * social login
-
 * email sending
 * image upload
 
-### 사용기술
 
+### 사용기술
+## frontend
+* 부트스트랩5 
+
+
+## backend
+* django 
 * Allauth 기반 소셜 로그인 1 kakao 2 naver
 * 데이터베이스: AWS RDS
-* 배포 : AWS EC2 - windows server2019 & apache web server
+## 배포 
+*AWS EC2 - windows server2019 & apache web server
 ### 설치 환경
-* python 3.10
-* pip install django
-* pip install django-allauth
+- python 3.10
+- pip install django
+- pip install django-allauth
 - pip install Pillow
 - pip install boto3
 - pip install django-storages
 - pip freeze > requirements.txt
 - pip install -r requirements.txt
-- 부트스트랩 https://startbootstrap.com/theme/grayscale
+
