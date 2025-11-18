@@ -31,14 +31,14 @@ kakaocloudschool
 
 ### 사용기술
 ## frontend
-* 부트스트랩5 
+* Bootstrap 5 
 
 
 ## backend
 * django 
 * Allauth 기반 소셜 로그인 1 kakao 2 naver
-* 데이터베이스: AWS RDS
-* 스토리지    : AWS S3
+* DB: AWS RDS
+* Storage: AWS S3
 ## 배포 
 *AWS EC2 - windows server2019 & apache web server
 ### 설치 환경
